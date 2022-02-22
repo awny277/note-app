@@ -1,0 +1,36 @@
+.getPreview-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 30px;
+  position: relative;
+}
+.getPreview-container a {
+  padding: 10px 20px;
+  color: #7b7777;
+  font-size: 22px;
+}
+.getPreview-container h2 {
+  color: #7b7777;
+  margin-bottom: 20px;
+}
+
+.getPreview-container p {
+  color: #7b7777;
+  line-height: 1.6;
+}
+
+.getPreview-container .content {
+  width: 80%;
+}
+.getPreview-container .edit {
+  width: 20%;
+}
+.content p  {
+  line-height: 1.6;
+  color: #3d3d3d;
+  text-transform: capitalize;
+}
+h2 {
+  text-transform:uppercase;
+}
