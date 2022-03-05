@@ -1,9 +1,10 @@
 .NoteList {
   background-color: #595f68;
-  height: 100% ;
+  min-height: 600px ;
   width: 20%;
   position: relative;
 }
+
 .NoteList ul {
   list-style: none;
   padding: 0;
@@ -19,6 +20,15 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   text-transform: capitalize;
+  word-wrap: break-word;
+}
+@media (max-width: 767.98px) {
+  .NoteList {
+    width: 30%;
+  }
+  .NoteList ul li {
+    padding: 8px 3px;
+  }
 }
 .NoteList ul li.active {
   background-color: #573d7d;

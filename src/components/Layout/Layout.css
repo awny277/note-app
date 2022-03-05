@@ -60,6 +60,11 @@
   padding: 30px;
   color: #444444;
 }
+@media (max-width: 767.98px) {
+  .Message {
+    width: 70%;
+  }
+}
 
 .alert {
   background-color: #f43a4c;

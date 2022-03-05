@@ -15,11 +15,13 @@ body {
   margin-top: 20px;
 }
 .App {
+  overflow: hidden;
+  margin-top: 20px;
   position: absolute;
   text-align: center;
   background-color: white;
   width: 80%;
-  height: 600px;
+  min-height: 600px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -39,10 +41,7 @@ body {
   .App {
     width: 100%;
   }
-  .NoteList {
-    width: 25%;
-  }
   .form-section form input {
     width: 100%;
   }
- }
+}

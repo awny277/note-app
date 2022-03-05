@@ -5,19 +5,35 @@
   padding: 30px;
   position: relative;
 }
+.getPreview-container .edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .getPreview-container a {
-  padding: 10px 20px;
+  padding: 5px ;
   color: #7b7777;
   font-size: 22px;
+  margin: 5px;
+}
+@media (max-width: 767.98px) {
+  .getPreview-container {
+    width: 70%;
+    padding: 15px;
+  }
 }
 .getPreview-container h2 {
   color: #7b7777;
   margin-bottom: 20px;
 }
 
-.getPreview-container p {
+.getPreview-container pre {
   color: #7b7777;
-  line-height: 1.6;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .getPreview-container .content {
@@ -32,5 +48,6 @@
   text-transform: capitalize;
 }
 h2 {
-  text-transform:uppercase;
+  text-transform:capitalize;
+  word-wrap: break-word;
 }

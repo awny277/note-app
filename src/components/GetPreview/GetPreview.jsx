@@ -1,5 +1,4 @@
 import React from "react";
-import Form from "../Layout/Form";
 import Message from "../Layout/Message";
 import "./index.css";
 
@@ -23,7 +22,7 @@ const GetPreview = ({
   const display = (
     <div className="content">
       <h2>{note.title}</h2>
-      <p>{note.content}</p>
+      <pre>{note.content}</pre>
     </div>
   );
 
